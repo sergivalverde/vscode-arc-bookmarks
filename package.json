@@ -4,6 +4,21 @@
   "description": "Sync your Arc browser bookmarks into VS Code's integrated browser. Continue browsing where you left off.",
   "version": "0.1.0",
   "publisher": "tensor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergivalverde/arc-bookmarks"
+  },
+  "homepage": "https://github.com/sergivalverde/arc-bookmarks#readme",
+  "bugs": {
+    "url": "https://github.com/sergivalverde/arc-bookmarks/issues"
+  },
+  "keywords": [
+    "arc",
+    "bookmarks",
+    "browser",
+    "sync"
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },
