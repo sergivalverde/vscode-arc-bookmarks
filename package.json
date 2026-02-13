@@ -1,0 +1,55 @@
+{
+  "name": "arc-bookmarks",
+  "displayName": "Arc Bookmarks",
+  "description": "Sync your Arc browser bookmarks into VS Code's integrated browser. Continue browsing where you left off.",
+  "version": "0.1.0",
+  "publisher": "tensor",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "arcBookmarks.open",
+        "title": "Arc Bookmarks: Open"
+      },
+      {
+        "command": "arcBookmarks.add",
+        "title": "Arc Bookmarks: Add"
+      },
+      {
+        "command": "arcBookmarks.remove",
+        "title": "Arc Bookmarks: Remove"
+      },
+      {
+        "command": "arcBookmarks.edit",
+        "title": "Arc Bookmarks: Edit"
+      },
+      {
+        "command": "arcBookmarks.sync",
+        "title": "Arc Bookmarks: Sync from Arc"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "arcBookmarks.open",
+        "key": "ctrl+alt+b",
+        "mac": "cmd+alt+b"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.0"
+  }
+}
