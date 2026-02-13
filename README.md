@@ -45,7 +45,7 @@ The sync feature currently reads Arc's bookmark data from its macOS storage path
 ## Development
 
 ```sh
-git clone https://github.com/sergivalverde/arc-bookmarks.git
+git clone https://github.com/sergivalverde/vscode-arc-bookmarks.git
 cd arc-bookmarks
 npm install
 npm run compile
