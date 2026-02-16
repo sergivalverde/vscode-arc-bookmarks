@@ -1,5 +1,6 @@
 .git/**
 .gitignore
+.claude/**
 src/**
 node_modules/**
 tsconfig.json
